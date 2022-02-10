@@ -14,7 +14,7 @@ module.exports = {
     publicPath: "auto",
   },
   devServer: {
-    proxy: require("./proxy.conf")
+    // proxy: require("./proxy.conf")
   },
   optimization: {
     runtimeChunk: false,

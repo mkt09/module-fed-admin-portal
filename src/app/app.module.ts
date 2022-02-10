@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, `/mf-admin-portal-root/i18n/`, '.json');
+  return new TranslateHttpLoader(http, `/i18n/`, '.json');
 }
 
 
